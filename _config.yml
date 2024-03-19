@@ -50,7 +50,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/landscape-trees.jpg
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -65,7 +65,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
         title: Project name
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
@@ -137,4 +137,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
